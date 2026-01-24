@@ -5,36 +5,49 @@ import Skills from '/src/assets/images/skills.svg';
 import Project from '/src/assets/images/project.svg';
 import Experience from '/src/assets/images/experience.svg';
 import Contact from '/src/assets/images/contact.svg';
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <nav className="">
         <section>
-            <div className='flex text-[14px] gap-8 text-white font'>
-                <div className='flex gap-2'>
-                    <img src={Home}/>
+            <div className='flex text-[14px] gap-8 font'>
+                <NavLink to="/" className='flex gap-2'>
+                    <img src={Home} 
+                    alt='home'
+                    className='dark:invert-0 invert transition-all'/>
                     <p>Home</p>
-                </div>
-               <div className='flex gap-2'>
-                <img src={About}/>
+                </NavLink>
+               <NavLink to = "/about" className='flex gap-2'>
+                <img src={About}
+                alt='about'
+                className='dark:invert-0 invert transition-all'/>
                 <p>About</p>
-               </div>
-                <div className='flex gap-2'>
-                    <img src={Skills}/>
+               </NavLink>
+                <NavLink to = "/skills" className='flex gap-2'>
+                    <img src={Skills}
+                    alt='skills'
+                    className='dark:invert-0 invert transition-all'/>
                     <p>Skills</p>
-                </div>
-                <div className='flex gap-2'>
-                    <img src={Project}/>
+                </NavLink>
+                <NavLink to ="/projects" className='flex gap-2'>
+                    <img src={Project}
+                    alt='project'
+                    className='dark:invert-0 invert transition-all'/>
                     <p>Projects</p>
-                </div>
-                <div className='flex gap-2'>
-                    <img src={Experience}/>
+                </NavLink>
+                <NavLink to ="/experience" className='flex gap-2'>
+                    <img src={Experience}
+                    alt='experience'
+                    className='dark:invert-0 invert transition-all'/>
                     <p>Experience</p>
-                </div>
-                <div className='flex gap-2'>
-                    <img src={Contact}/>
+                </NavLink>
+                <NavLink to ="/contact" className='flex gap-2'>
+                    <img src={Contact}
+                    alt='contact'
+                    className='dark:invert-0 invert transition-all'/>
                     <p>Contact</p>
-                </div>
+                </NavLink>
             </div>
         
         </section>
