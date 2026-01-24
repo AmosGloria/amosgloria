@@ -4,11 +4,11 @@ import About from '/src/assets/images/about.svg';
 import Skills from '/src/assets/images/skills.svg';
 import Project from '/src/assets/images/project.svg';
 import Experience from '/src/assets/images/experience.svg';
-import Contact from '/src/assets/images/contact.svg'
+import Contact from '/src/assets/images/contact.svg';
 
 export default function Navbar() {
   return (
-    <div>
+    <nav className="">
         <section>
             <div className='flex text-[14px] gap-8 text-white font'>
                 <div className='flex gap-2'>
@@ -36,7 +36,8 @@ export default function Navbar() {
                     <p>Contact</p>
                 </div>
             </div>
+        
         </section>
-    </div>
+    </nav>
   )
 }
