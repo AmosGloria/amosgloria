@@ -2,6 +2,33 @@
 
 @theme {
   --color-dark-bg: #282C33;
+
+  --animate-typewriter: typing 8s steps(45) infinite;
+  --animate-writing-pen: penMove 8s steps(45) infinite;
+
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    57% {
+      width: 100%;
+    }
+    100% {
+      width: 100%; 
+    }
+  }
+
+  @keyframes penMove {
+    0% {
+      left: 0;
+    }
+    57% {
+      left: 100%;
+    }
+    100% {
+      left: 100%; 
+    }
+  }
 }
 
 @variant dark (&:where(.dark, .dark *));
