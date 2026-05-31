@@ -1,16 +1,31 @@
 import React, { useState } from "react";
 
-/**
- * Add new experience entries here — they render automatically in the timeline.
- */
 const experiences = [
+  {
+role: "Frontend Developer",
+org: "Mently",
+period: "Oct 2025 - present",
+type: "Junior Frontend Role",
+description: "Fallback Screen and React Email Implementation",
+highlights: [
+  "Developing the frontend architecture for the Mently notification ecosystem utilizing React Email and Tailwind CSS inside Next.js; collaborating with backend engineers to deliver a library of 15+ reusable, multi-tenant templates to accelerate communications deployment cycles by 40%.",
+"Designed and implemented responsive system-status fallback screens across primary application routes; safeguarded user retention for 2k+ active users by reducing unhandled blank-screen bounce rates by 90% during scheduled platform updates and server downtime. "
+]
+  },
+  {
+    role: "Frontend Developer Intern",
+    org: "Mently",
+    period: "June - Sept, 2025",
+    type: "Internship",
+    description: "Replicated the mently platform"
+  },
   {
     role: "Women Techsters Fellow",
     org: "Tech4Dev",
-    period: "2024",
+    period: "2025",
     type: "Fellowship",
     description:
-      "Completed a competitive software engineering fellowship focused on building production-ready web applications. Collaborated in a cross-functional team to ship GreenSight — an environmental awareness platform — as the programme capstone.",
+      "Learning software engineering on frontend track as a fellow focused on building production-ready web applications. Collaboration in a cross-functional team to ship GreenSight — an environmental awareness platform — as the programme capstone.",
     highlights: [
       "Built and deployed a full-stack capstone project with a team",
       "Practised Agile/Scrum ceremonies across the fellowship",
@@ -20,7 +35,7 @@ const experiences = [
   {
     role: "Open-Source Contributor",
     org: "Memory-Map (GitHub)",
-    period: "2024",
+    period: "2025",
     type: "Open Source",
     description:
       "Contributed documentation improvements to Memory-Map, a Rust-powered location-aware media archive. Focused on README accuracy, clarity, and contributor-friendliness.",
@@ -30,19 +45,6 @@ const experiences = [
       "Navigated a full open-source PR review workflow",
     ],
   },
-  {
-    role: "Freelance Front-End Developer",
-    org: "Self-employed",
-    period: "2023 – present",
-    type: "Freelance",
-    description:
-      "Designed and built responsive web applications for clients, with a focus on clean UI, fast performance, and accessibility.",
-    highlights: [
-      "Delivered pixel-perfect interfaces from Figma designs",
-      "Integrated REST APIs and authentication flows",
-      "Deployed projects on Render and Vercel",
-    ],
-  },
 ];
 
 function TimelineItem({ exp, isLast }) {
@@ -50,13 +52,10 @@ function TimelineItem({ exp, isLast }) {
 
   return (
     <div className="flex gap-6">
-      {/* timeline spine */}
       <div className="flex flex-col items-center">
         <div className="w-3 h-3 rounded-full bg-purple-400 dark:bg-[#C778DD] shrink-0 mt-1" />
         {!isLast && <div className="w-0.5 flex-1 bg-gray-300 dark:bg-gray-600 mt-1" />}
       </div>
-
-      {/* content */}
       <div className="flex flex-col gap-2 pb-10 w-full">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div>
@@ -96,16 +95,12 @@ function TimelineItem({ exp, isLast }) {
 export default function Experience() {
   return (
     <section className="px-8 md:px-26 py-16 flex flex-col gap-14">
-
-      {/* section header */}
       <div>
         <h2 className="font-black text-[28px] flex items-center gap-3">
           <span className="dark:text-[#C778DD] text-[#6E11B0]">#</span>experience
         </h2>
         <div className="mt-1 w-24 h-0.5 bg-purple-400 dark:bg-[#C778DD]" />
       </div>
-
-      {/* timeline */}
       <div className="flex flex-col max-w-3xl">
         {experiences.map((exp, i) => (
           <TimelineItem key={exp.role} exp={exp} isLast={i === experiences.length - 1} />

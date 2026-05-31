@@ -18,7 +18,7 @@ const skillCategories = [
   },
   {
     category: "Back-end & Databases",
-    skills: ["Node.js", "REST APIs", "Supabase", "PostgreSQL"],
+    skills: ["Node.js", "REST APIs", "Mongodb", "Supabase", "PostgreSQL",],
   },
   {
     category: "Practices",

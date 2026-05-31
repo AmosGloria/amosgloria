@@ -120,9 +120,6 @@ export default function Projects() {
         <div className="mt-1 w-24 h-0.5 bg-purple-400 dark:bg-[#C778DD]" />
       </div>
       <div>
-        <h3 className="font-bold text-[14px] uppercase tracking-widest opacity-60 mb-6 flex items-center gap-2">
-          <Tag size={13} /> Built Projects
-        </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {projects.map((p) => (
             <ProjectCard key={p.title} project={p} />

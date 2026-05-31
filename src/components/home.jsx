@@ -9,10 +9,10 @@ import Experience from "./experience";
 
 export default function Home() {
   return (
-    <div className="flex flex-row items-start gap-50">
-      <div>
-        <div className="w-0.5 h-60 relative left-12 -top-18 bg-gray-300"></div>
-        <div className="w-fit flex flex-col gap-8 px-8 relative -top-16">
+    <main className="max-w-[1200px] w-full mx-auto">
+    <div className="w-full mx-auto p-6">
+      <div className="hidden md:block">
+        <div className="w-fit flex flex-col gap-8 px-8 relative top-16">
           <NavLink to="https://github.com/AmosGloria">
             <Github size={34} />
           </NavLink>
@@ -24,9 +24,9 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div>
-        <div className="mx-auto flex flex-col justify-center items-center px-8 w-180 h-40 bg-transparent border border-purple-300">
-          <div>
+      <div className="md:-mt-32 mt-0">
+        <div className="max-w-[400px] w-full mx-auto mb-4 flex flex-1 flex-col justify-center items-center px-8 h-40 bg-transparent border border-purple-300">
+          <div className="text-center md:text-[18px] text-[14px]">
             <p>✓ Initializing portfolio...</p>
             <p>✓ Rendering interfaces...</p>
             <p className="dark:text-[#C778DD] text-[#6E11B0]">✓ Shipping experiences...</p>
@@ -39,12 +39,12 @@ export default function Home() {
           </div>
         </div>
 
-        <h1 className="font-black text-[36px] text-center">
+        <h1 className="font-black lg:text-[36px] text-[26px] text-center">
           <span>Gloria is a </span>
           <span className="text-purple-500">Software Engineer</span>
         </h1>
 
-        <div className="mx-auto w-200 flex font-bold justify-center items-center">
+        <div className="mx-auto max-w-2xl w-full flex font-bold justify-center items-center">
           <p>
             Dedicated to building high-performance,
             web interfaces that align with organizational goals,
@@ -55,7 +55,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex gap-4 mt-4 flex-wrap">
+        <div className="flex gap-4 mt-4 flex-wrap justify-center">
           <NavLink
             to="/projects"
             className="flex items-center gap-2 px-5 py-2.5 border border-purple-400 dark:border-[#C778DD] dark:text-[#C778DD] text-[#6E11B0] font-semibold text-[13px] hover:bg-purple-100 dark:hover:bg-purple-900/30 transition-colors"
@@ -69,14 +69,16 @@ export default function Home() {
             Contact Me
           </NavLink>
         </div>
-        <section>
+ 
+      </div>
+    </div>
+  <section>
   <Projects/>
   <Experience/>
   <Skills/>
   <About/>
   <Contact/>
 </section>
-      </div>
-    </div>
+    </main>
   );
 }
