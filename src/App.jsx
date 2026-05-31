@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/page';
 import MobileNavbar from './components/navbar/mobile-navbar';
 import { Moon, Sun } from "lucide-react";
-import Logo from "/src/assets/Icons/logo.svg";
+import Logo from "/src/assets/icons/logo.svg";
 import Home from './components/home';
 import About from './components/about';
 import Projects from './components/projects';
