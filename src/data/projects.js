@@ -22,9 +22,9 @@ export const projects = [
     highlight: true,
   },
   {
-    title: "GreenSight - Women Techsters Capstone",
+    title: "GreenSight ",
     description:
-      "A capstone project built during the Women Techsters Fellowship by Tech4Dev. GreenSight is an environmental awareness platform that surfaces sustainability insights through an intuitive, accessible interface.",
+      "GreenSight is an environmental awareness platform that surfaces sustainability insights through an intuitive, accessible interface.",
     tags: ["React", "Tailwind CSS", "API Integration", "Team Project"],
     liveUrl: "https://greensight-frontend.onrender.com/",
     githubUrl: "https://github.com/Terrestrial-Techies/GreenSight",
@@ -32,11 +32,12 @@ export const projects = [
     highlight: false,
   },
   {
-    title: "AmosGloria - Portfolio",
-    description: "AmosGloria is my personal portfolio website where I showcase my skills and projects I've worked on",
-    tags: ["React", "Tailwindcss"],
-    liveUrl:"pending",
-    githubUrl: "https://github.com/AmosGloria/amosgloria",
+    title: "Canvas- Share",
+    description: `Canvas Share is a real-time collaborative whiteboard built with React, WebSockets, Yjs, and MongoDB for persistent room-based drawing sessions.
+                  It supports live sketching, shape tools, object selection, movement, duplication, and cloud-synced collaboration.`,
+    tags: ["Mongodb", "Websockets + YJS", "React", "Tailwindcss"],
+    liveUrl:"https://canvas-share-yvn9.vercel.app/",
+    githubUrl: "https://github.com/AmosGloria/canvas-share",
     type: "Project",
     highlight: true,
   }
