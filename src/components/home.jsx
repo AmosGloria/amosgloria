@@ -73,9 +73,9 @@ export default function Home() {
       </div>
     </div>
   <section>
-  <Projects/>
   <Experience/>
   <Skills/>
+  <Projects/>
   <About/>
   <Contact/>
 </section>

@@ -11,6 +11,16 @@
  */
 
 export const projects = [
+    {
+    title: "Canvas- Share",
+    description: `Canvas Share is a real-time collaborative whiteboard built with React, WebSockets, Yjs, and MongoDB for persistent room-based drawing sessions.
+                  It supports live sketching, shape tools, object selection, movement, duplication, and cloud-synced collaboration.`,
+    tags: ["Mongodb", "Websockets + YJS", "React", "Tailwindcss"],
+    liveUrl:"https://canvas-share-yvn9.vercel.app/",
+    githubUrl: "https://github.com/AmosGloria/canvas-share",
+    type: "Project",
+    highlight: true,
+  },
   {
     title: "mini-linkly - URL Shortener",
     description:
@@ -31,16 +41,6 @@ export const projects = [
     type: "project",
     highlight: false,
   },
-  {
-    title: "Canvas- Share",
-    description: `Canvas Share is a real-time collaborative whiteboard built with React, WebSockets, Yjs, and MongoDB for persistent room-based drawing sessions.
-                  It supports live sketching, shape tools, object selection, movement, duplication, and cloud-synced collaboration.`,
-    tags: ["Mongodb", "Websockets + YJS", "React", "Tailwindcss"],
-    liveUrl:"https://canvas-share-yvn9.vercel.app/",
-    githubUrl: "https://github.com/AmosGloria/canvas-share",
-    type: "Project",
-    highlight: true,
-  }
 ];
 
 export const contributions = [
