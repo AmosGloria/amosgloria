@@ -1,4 +1,4 @@
-# Gloria Amos — Software Engineer Portfolio
+# Gloria Amos - Software Engineer Portfolio
 
 A professional portfolio website showcasing my skills, projects, experience and growth as a Software Engineer focused on building clean, accessible and high-performing web interfaces.
 
