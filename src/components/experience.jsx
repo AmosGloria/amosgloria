@@ -8,7 +8,7 @@ period: "Oct 2025 - present",
 type: "Junior Frontend Role",
 description: "Fallback Screen and React Email Implementation",
 highlights: [
-  "Developing the frontend architecture for the Mently notification ecosystem utilizing React Email and Tailwind CSS inside Next.js; collaborating with backend engineers to deliver a library of 15+ reusable, multi-tenant templates to accelerate communications deployment cycles by 40%.",
+  "Developed the frontend architecture for the Mently Email notification ecosystem utilizing React Email and Tailwind CSS inside Next.js; collaborated with backend engineers to deliver a library of 50+ reusable, multi-tenant templates to accelerate communications deployment cycles by 50%.",
 "Designed and implemented responsive system-status fallback screens across primary application routes; safeguarded user retention for 2k+ active users by reducing unhandled blank-screen bounce rates by 90% during scheduled platform updates and server downtime. "
 ]
   },
