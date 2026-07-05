@@ -45,7 +45,26 @@ export const projects = [
 
 export const contributions = [
   {
-    title: "Memory-Map — README Documentation",
+    title: "Qiskit - Clarify arithmetic API documentation",
+    description: "Contributed to Qiskit, an open-source quantum computing SDK, by improving the clarity of arithmetic API documentation and adding related test coverage. The contribution clarified PolynomialPauliRotations, PolynomialPauliRotationsGate, and HalfAdderGate documentation, added clearer explanations for X and Z basis behavior, improved the carry-out qubit explanation, removed outdated parameter documentation, and added tests for X/Z basis cases. The pull request passed CI checks, was reviewed by maintainers, merged into Qiskit’s main branch, and backported.",
+    highlights:[
+
+"Improved Qiskit arithmetic API documentation for better clarity and developer understanding.",
+"Clarified `PolynomialPauliRotations` and `PolynomialPauliRotationsGate` behavior for X and Z Pauli rotation bases",
+" Improved `HalfAdderGate` documentation by explaining the clean `|0⟩` input qubit and its role in holding the carry-out bit.",
+" Removed outdated parameter documentation that did not match the actual API behavior.",
+" Added test coverage for X and Z basis cases in Qiskit’s functional test suite.",
+" Responded to maintainer review feedback and updated the pull request accordingly.",
+" Pull request passed CI checks, was merged into Qiskit’s main branch, and was backported."
+
+
+    ],
+    tags:["Qiskit","Quantum Computing", "Unit Testing", "Quantum SDK", "Technical Documentation", "API Documentation", "CI/CD"],
+    prUrl:"https://github.com/Qiskit/qiskit/pull/16508#event-27473638752",
+    type: "opensource",
+  },
+  {
+    title: "Memory-Map - README Documentation",
     description:
       "Contributed to Memory-Map, a Rust-powered, location-aware media archive that visualises memories on an interactive world map. My contribution focused on correcting technical inaccuracies, improving clarity, adding official tool links, and restructuring the README for new contributors.",
     highlights: [

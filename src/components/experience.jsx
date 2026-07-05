@@ -19,32 +19,6 @@ highlights: [
     type: "Internship",
     description: "Replicated the mently platform"
   },
-  {
-    role: "Women Techsters Fellow",
-    org: "Tech4Dev",
-    period: "2025",
-    type: "Fellowship",
-    description:
-      "Learning software engineering on frontend track as a fellow focused on building production-ready web applications. Collaboration in a cross-functional team to ship GreenSight — an environmental awareness platform — as the programme capstone.",
-    highlights: [
-      "Built and deployed a full-stack capstone project with a team",
-      "Practised Agile/Scrum ceremonies across the fellowship",
-      "Strengthened React, API integration, and responsive-design skills",
-    ],
-  },
-  {
-    role: "Open-Source Contributor",
-    org: "Memory-Map (GitHub)",
-    period: "2025",
-    type: "Open Source",
-    description:
-      "Contributed documentation improvements to Memory-Map, a Rust-powered location-aware media archive. Focused on README accuracy, clarity, and contributor-friendliness.",
-    highlights: [
-      "Reviewed and corrected technical inaccuracies in existing docs",
-      "Restructured README for new-contributor onboarding",
-      "Navigated a full open-source PR review workflow",
-    ],
-  },
 ];
 
 function TimelineItem({ exp, isLast }) {
