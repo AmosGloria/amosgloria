@@ -44,7 +44,8 @@ export default function Home() {
           <span className="text-purple-500">Software Engineer</span>
         </h1>
 
-        <div className="mx-auto max-w-2xl w-full flex font-bold justify-center items-center">
+<section className="flex md:flex-row flex-col">
+          <div className="mx-auto max-w-2xl w-full flex font-bold justify-center items-center">
           <p>
             Dedicated to building high-performance,
             web interfaces that align with organizational goals,
@@ -54,21 +55,31 @@ export default function Home() {
             </span>
           </p>
         </div>
-
-        <div className="flex gap-4 mt-4 flex-wrap justify-center">
-          <NavLink
-            to="/projects"
-            className="flex items-center gap-2 px-5 py-2.5 border border-purple-400 dark:border-[#C778DD] dark:text-[#C778DD] text-[#6E11B0] font-semibold text-[13px] hover:bg-purple-100 dark:hover:bg-purple-900/30 transition-colors"
-          >
-            Explore Projects
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className="flex items-center gap-2 px-5 py-2.5 border border-gray-400 dark:border-gray-500 font-semibold text-[13px] hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors opacity-80 hover:opacity-100"
-          >
-            Contact Me
-          </NavLink>
+        <div className="flex flex-col gap-2">
+          <p>Background</p>
+            <div className="flex justify-left gap-4 rounded-sm items-center border border-gray-400 dark:border-gray-500 px-2">
+              <img src="/icons/degree.svg" className="dark:invert"/>
+                <div>
+                     <p>Business Administration</p>
+                    <p>Niger Delta University</p>
+                </div>
+              </div>
+              <div className="flex justify-left gap-4 rounded-sm items-center border border-gray-400 dark:border-gray-500 px-2">
+                <img src="/icons/software.svg" className="dark:invert"/>
+             <div>
+               <p>Software Development</p>
+              <p>Power Learn Academy</p>
+             </div>
+              </div>
+            <div className="flex justify-left gap-4 rounded-sm items-center border border-gray-400 dark:border-gray-500 px-2">
+               <img src="/icons/design.svg" className="dark:invert"/>
+                <div>
+                  <p>Frontend Development <span>2025 - 2026</span></p>
+                  <p>Women Techster Fellowship by Tech4Dev</p>
+                  </div>
+              </div>
         </div>
+</section>
  
       </div>
     </div>
