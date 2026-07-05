@@ -37,3 +37,36 @@ html, body, #root {
   height: 100%;
   box-sizing: border-box;
 }
+
+@keyframes floatY {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float-slow {
+  animation: floatY 5s ease-in-out infinite alternate;
+}
+
+.animate-float-slower {
+  animation: floatY 6.2s ease-in-out infinite alternate;
+}
+
+.animate-float-slowest {
+  animation: floatY 7.4s ease-in-out infinite alternate;
+}
+
+@keyframes cardFloat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
