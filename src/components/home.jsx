@@ -69,7 +69,7 @@ export default function Home() {
               </div>
             </div>
 
-            <h1 className="font-black lg:text-[36px] text-[26px] text-center">
+            <h1 className="font-black lg:text-[44px] text-[34px] text-center">
               <span>Gloria is a </span>
               <span className="text-purple-500">Software Developer</span>
             </h1>
@@ -78,7 +78,7 @@ export default function Home() {
               <section>
                 <div className="mx-auto max-w-2xl w-full flex flex-col gap-8 items-start">
                   <div className="w-full font-bold">
-                    <p className="text-center lg:text-left">
+                    <p className="text-[16px] text-center lg:text-left">
                       specilizing in frontend, dedicated to building high-performance web interfaces that
                       align with organizational goals, amplify brand identity,
                       and drive measurable user success.
@@ -107,7 +107,7 @@ export default function Home() {
                 </div>
               </section>
 
-              <div className="flex flex-col gap-2">
+              <div className="text-[16px] font-bold flex flex-col gap-2">
                 <p className="font-bold">Background</p>
 
                 <div className="flex justify-start gap-4 rounded-sm items-center border border-gray-400 dark:border-gray-500 px-2 py-2">

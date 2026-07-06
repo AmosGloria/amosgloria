@@ -34,7 +34,7 @@ function TimelineItem({ exp }) {
       <div className="flex flex-col gap-3 pb-10 w-full">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div>
-            <h3 className="font-bold text-[16px]">{exp.role}</h3>
+            <h3 className="font-bold text-[18px]">{exp.role}</h3>
             <p className="text-[13px] opacity-70">
               {exp.org} ·{" "}
               <span className="dark:text-[#C778DD] text-[#6E11B0] font-semibold">
@@ -43,12 +43,12 @@ function TimelineItem({ exp }) {
             </p>
           </div>
 
-          <span className="text-[12px] font-mono border border-gray-300 dark:border-gray-600 px-2 py-0.5 opacity-70">
+          <span className="text-[16px] font-mono border border-gray-300 dark:border-gray-600 px-2 py-0.5 opacity-70">
             {exp.period}
           </span>
         </div>
 
-        <ul className="list-disc pl-5 space-y-2 text-[13px] leading-relaxed opacity-80 max-w-2xl">
+        <ul className="text-[16px] list-disc pl-5 space-y-2 leading-relaxed opacity-80 max-w-2xl">
           {exp.workDone.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
@@ -64,7 +64,7 @@ export default function Experience() {
       <div>
         <h2 className="font-black text-[28px] flex items-center gap-3">
           <span className="dark:text-[#C778DD] text-[#6E11B0]">#</span>
-          experience
+          Experience
         </h2>
         <div className="mt-1 w-24 h-0.5 bg-purple-400 dark:bg-[#C778DD]" />
       </div>
