@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/page';
 import MobileNavbar from './components/navbar/mobile-navbar';
@@ -12,15 +12,18 @@ import Contact from './components/contact';
 import Skills from './components/skills';
 
 export default function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [isHovered, setIsHovered] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
-    document.documentElement.classList.toggle('dark', newTheme === "dark");
   };
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === "dark");
+  }, [theme]);
 
   return (
     <BrowserRouter>
