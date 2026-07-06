@@ -160,7 +160,7 @@ export default function Home() {
                 }}
                 className="w-31.5 rounded-xl border border-purple-400/30 bg-white/70 dark:bg-slate-950/70 px-3 py-2 backdrop-blur-md shadow-[0_0_22px_rgba(168,85,247,0.35)] hover:shadow-[0_0_32px_rgba(168,85,247,0.55)] transition-shadow"
               >
-                <p className="text-[9px] uppercase tracking-[0.25em] text-purple-500 font-bold">
+                <p className=" text-[9px] uppercase tracking-[0.25em] text-purple-500 font-bold">
                   {card.label}
                 </p>
                 <p className="mt-1 text-[12px] font-black text-slate-900 dark:text-white">

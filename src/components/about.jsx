@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Download, ArrowRight } from "lucide-react";
 
 const facts = [
-  "I'm a Software Engineer with a passion for building clean, performant web interfaces.",
+  "I'm a Software Developer with a passion for building clean, performant web interfaces.",
   "I completed the Women Techsters Fellowship by Tech4Dev, where I built a full capstone project with a cross-functional team.",
   "I've contributed to open-source projects and care deeply about documentation quality.",
   "I enjoy turning complex problems into simple, elegant solutions.",
@@ -22,7 +22,7 @@ export default function About() {
       <div className="flex flex-col lg:flex-row gap-16 items-start">
         <div className="flex flex-col gap-5 max-w-xl">
           <p className="text-[15px] leading-relaxed opacity-90">
-            Hi! I'm <span className="font-bold dark:text-[#C778DD] text-[#6E11B0]">Gloria Amos</span> — a
+            Hi! I'm <span className="font-bold dark:text-[#C778DD] text-[#6E11B0]">Gloria Amos</span> - a
             Software Engineer dedicated to crafting high-performance, accessible web
             experiences that align with organisational goals and amplify brand identity.
           </p>
