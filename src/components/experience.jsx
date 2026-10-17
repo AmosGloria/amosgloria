@@ -7,8 +7,11 @@ const experiences = [
     period: "Oct 2025 - Present",
     type: "Junior Frontend Role",
     workDone: [
-      "Developed the frontend architecture for email notification ecosystem using React Email and Tailwind CSS inside Next.js. Collaborated with backend engineers to deliver 70+ reusable, multi-tenant email templates.",
+      "Developed the frontend architecture for email notification ecosystem using React Email and Tailwind CSS inside Next.js. Collaborated with backend engineers to deliver 150+ reusable, multi-tenant email templates.",
       "Built a responsive system-status fallback screen across primary application routes. Improved user experience during scheduled platform updates and server downtime.",
+      "Designed and built an interactive Program Fit Selector feature using guiding users through a dynamic intake form to deliver tailored program recommendations.",
+      "Implemented a custom export feature allowing users to instantly download personalized recommendation summaries as downloadable PDFs/documents.",
+      "Developed responsive, high-converting marketing pages including Case Studies and Success Stories using reusable UI components ",
     ],
   },
   {
