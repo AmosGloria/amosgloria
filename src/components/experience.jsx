@@ -7,6 +7,7 @@ const experiences = [
     period: "Oct 2025 - Present",
     type: "Junior Frontend Role",
     workDone: [
+      "Engineered a reusable, data-driven SEO landing page system. Implemented technical SEO features, including metadata, canonical URLs, XML sitemaps, robots directives, and JSON-LD structured data.",
       "Designed and built an interactive Program Fit Selector feature guiding users through a dynamic intake form to deliver tailored program recommendations. Implemented a custom export feature allowing users to instantly download personalized recommendation summaries as downloadable PDFs/documents.",
       "Developed responsive, high-converting marketing pages including Case Studies and Success Stories using reusable UI components ",
       "Developed the frontend architecture for email notification ecosystem using React Email and Tailwind CSS inside Next.js. Collaborated with backend engineers to deliver 150+ reusable, multi-tenant email templates.",
